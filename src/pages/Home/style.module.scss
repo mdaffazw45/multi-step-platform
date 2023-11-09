@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Rubik:wght@400;500&family=Ubuntu:wght@400;500;700&display=swap");
+
+$gray: hsl(231, 11%, 63%);
+$blue: hsl(243, 100%, 62%);
+$Darkblue: hsl(213, 96%, 18%);
+$red: #c94451;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  body{
+    background-color: #eef5ff;
+  }

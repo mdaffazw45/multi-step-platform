@@ -1,0 +1,25 @@
+.planCard{
+    padding: 20px 15px;
+    border: hsl(229, 24%, 87%) 1px solid;
+    border-radius: 10px;
+    &:hover{
+      border: $blue 1px solid !important;
+    }
+    cursor: pointer;
+    .title{
+      margin-top: 40px;
+      h3{
+        font-size: 18px;
+        color: #174a89;
+      }
+      p{
+        margin-top: 10px;
+        font-size: 14px;
+      }
+    }
+}
+
+.planClick{
+    border: $blue 1px solid !important;
+    background-color: #F8F9FE;
+}
